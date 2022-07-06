@@ -1,0 +1,33 @@
+.app-panel-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.panel-info {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  width: 400px;
+  box-shadow: 0px 0px 10px 0px rgba(0 0 0 / 10%);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.panel-info__image>img {
+  width: 150px;
+  height: 150px;
+}
+
+.panel-info__id {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 600;
+}
+
+.panel-info__name {
+  font-size: 1.4rem;
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 10%;
+}
+
+.app-search {
+  display: flex;
+  flex-direction: column;
+}
+
+.app-search__title {
+  font-size: 2.4em;
+  font-weight: 600;
+  text-align: center;
+}
+
+.app-search__container {
+  display: flex;
+}
+
+.app-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.app-paginate {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}

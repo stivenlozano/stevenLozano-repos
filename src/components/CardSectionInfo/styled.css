@@ -1,0 +1,33 @@
+.panel-info__section {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.panel-info__section-title {
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.panel-info__section-content {
+  word-wrap: break-word;
+  gap: 10px;
+}
+
+.panel-info__section-content span {
+  margin-right: 10px;
+}
+
+.panel-info__section-images {
+  overflow-x: auto;
+  white-space: nowrap;
+
+}
+
+.panel-info__section-images img {
+  width: 60px;
+  background-color: rgba(0 0 0 / 4%);
+  border-radius: 100px;
+  border: 1px solid rgba(0 0 0 / 4%);
+  box-shadow: 0px 0px 10px rgba(0 0 0 / 10%);
+  margin: 2px 4px;
+}
